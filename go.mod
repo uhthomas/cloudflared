@@ -61,4 +61,4 @@ require (
 	zombiezen.com/go/capnproto2 v2.18.0+incompatible
 )
 
-replace crypto/tls/fipsonly => github.com/uhthomas/cloudflared/tools/fipsonly latest
+replace crypto/tls/fipsonly => github.com/uhthomas/cloudflared/tools/fipsonly v0.0.0-20210222153845-be929c277876
