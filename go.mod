@@ -5,6 +5,7 @@ go 1.15
 replace github.com/urfave/cli/v2 => github.com/ipostelnik/cli/v2 v2.3.1-0.20210212191405-2b6ed1f5ef69
 
 require (
+	crypto/tls/fipsonly v0.0.0-00010101000000-000000000000
 	github.com/certifi/gocertifi v0.0.0-20200211180108-c7c1fbc02894 // indirect
 	github.com/cloudflare/brotli-go v0.0.0-20191101163834-d34379f7ff93
 	github.com/cloudflare/golibs v0.0.0-20170913112048-333127dbecfc
@@ -60,4 +61,4 @@ require (
 	zombiezen.com/go/capnproto2 v2.18.0+incompatible
 )
 
-replace crypto/tls/fipsonly => github.com/uhthomas/cloudflared/tools/fipsonly latest
+replace crypto/tls/fipsonly => github.com/uhthomas/cloudflared/tools/fipsonly v0.0.0-20210222153845-be929c277876
