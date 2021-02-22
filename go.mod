@@ -59,3 +59,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776 // indirect
 	zombiezen.com/go/capnproto2 v2.18.0+incompatible
 )
+
+replace crypto/tls/fipsonly => github.com/uhthomas/cloudflared/tools/fipsonly latest
